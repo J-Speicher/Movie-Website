@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cool Film Reviews</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Best Movie Cite Ever</h1>
+    </header>
+
+    <div class="middler">
+        <aside class="lefter" aria-label="LeftSidebar">
+            <div class="figure-container">
+                <img src="images/ETMoon.jpg" alt="Shadow of boy riding flying bicycle in front of full moon" class="image">
+                <img src="images/Shining.jpg" alt="Crazy man with an axe, Jack Torrance, sticking his head through a door opening" class="image">
+                <img src="images/PlaneChase.jpg" alt="Man in suit running towards camera with a plane chasing him near ground level" class="image">
+            </div>
+        </aside>
+        <main>
+            <p>Bookmark Movies below:</p>
+            <section id="form-area">
+                <form id="form" action="#" method="get">
+                    <div class="form-group" id="div1">
+                        <label id="label1">Title: </label>
+                        <input type="text" name="title" id="title" placeholder="Mission Impossible">
+                    </div>
+                    <div class="form-group" id="div2">
+                        <label id="label2">Genre(s): </label>
+                        <input type="text" name="genres" id="genres" placeholder="Action and Mystery">
+                    </div>
+                    <div class="form-group" id="div3">
+                        <label id="label3">Cast: </label>
+                        <input type="text" name="cast" id="cast" placeholder="Tom Cruise and others">
+                    </div>
+                    <div class="form-group" id="div4">
+                        <label id="label4">Reason: </label>
+                        <textarea name="reason" id="reason" cols="30" rows="1" placeholder="it has cool stunts!"></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit" id="submit-bookmark">Submit</button>
+                        <button type="reset" id="reset-bookmarks">Reset</button>
+                    </div>
+                </form>
+            </section>
+            <section id="bookmarks-area">
+                <div class="bookmark-buttons">
+                    <button type="button" id="export-bookmarks">Export</button>
+                </div>
+                <div class="bookmarks">
+                    <p>Your Bookmarked Movies:</p>
+                </div>
+                <ul id="bookmarks"></ul>
+            </section>
+        </main>
+        <aside class="righter" aria-label="RightSidebar">
+            <div class="figure-container">
+                <img src="images/Joker.jpg" alt="Villain dressed like a clown, Joker, holding hands in front of face" class="image">
+                <img src="images/GodFather.jpg" alt="Man whispering to mafia boss known as GodFather" class="image">
+                <img src="images/Pirate.jpg" alt="Jack Sparrow the pirate getting chased on beach by skeletons" class="image">
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <h2>Keep Exploring Below!</h2>
+        <ul>
+            <li><button type="button" onclick="window.location.href='index.html'">Home</button></li>
+            <li><button type="button" onclick="window.location.href='bookmark.html'">Bookmark Films for Later</button></li>
+            <li><button type="button" onclick="window.location.href='links.html'">External Film Info</button></li>
+            <li><button type="button" onclick="window.location.href='popular.html'">Top Films</button></li>
+            <li><button type="button" onclick="window.location.href='reviews.html'">Film Reviews</button></li>
+        </ul>
+    </footer>
+    <script src="scripts/bookmark.js"></script>
+</body>

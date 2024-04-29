@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cool Film Reviews</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>External Movie Review Sources</h1>
+  </header>
+
+  <div class="middler">
+    <aside class="lefter" aria-label="LeftSidebar">
+      <div class="figure-container">
+        <img src="images/ETMoon.jpg" alt="Shadow of boy riding flying bicycle in front of full moon" class="image">
+        <img src="images/Shining.jpg" alt="Crazy man with an axe, Jack Torrance, sticking his head through a door opening" class="image">
+        <img src="images/PlaneChase.jpg" alt="Man in suit running towards camera with a plane chasing him near ground level" class="image">
+      </div>
+    </aside>
+    <main>
+      <section>
+        <ul>
+          <li>
+            <p><strong>1:</strong> <a href="https://www.rottentomatoes.com/">Rotten Tomatoes</a></p>
+            <div class="smallfigure-container">
+              <img src="images/RottenTomatoes.jpg" alt="Rotten Tomatoes Logo" class="image smaller-image">
+            </div>
+            <p>This infamous movie review website is known for being</p>
+            <p>overly critical of movies</p>
+          </li>
+          <li>
+            <p><strong>2:</strong> <a href="https://www.imdb.com/">IMDb</a>
+            </p>
+            <p>This website is more "mainstream" and lists reviews that most people
+              would agree with.</p>
+          </li>
+          <li>
+            <p><strong>3:</strong> <a href="https://www.metacritic.com/">Metacritic</a></p>
+            <p>Metacritic is easy to navigate through a wide selection</p>
+            <p>and it also provides casual reviews with explanations for them.</p>
+          </li>
+          <li>
+            <p><strong>4:</strong> <a href="https://www.rogerebert.com/">Roger Ebert</a></p>
+            <p>It's fair to say that this website is extremely in depth, so I</p>
+            <p>would only recommend it to those who are deeply interested in cinema.</p>
+          </li>
+          <li>
+            <p><strong>5:</strong> <a href="https://www.ign.com/">IGN</a></p>
+            <p>IGN may be the most casual of these review websites, but it is</p>
+            <p>entertaining and sometimes funny to scroll through.</p>
+          </li>
+        </ul>
+        <!-- TODO -->
+        <div class="input-container">
+          <label for="input">Streaming Services:</label>
+          <input id="input" type="text" placeholder="Country code here">
+        </div>
+        <div class="btn-container">
+          <button id="get-btn" type="button">Get reviews</button>
+        </div>
+        <div class="output-area">
+          <h2>Output</h2>
+          <pre id="output" class="textbox">Reviews will go here</pre>
+        </div>
+        <!-- <div class="card wide">
+          <h2>Get reviews here</h2>
+          <button id="api-1-btn" type="button">Get reviews</button>
+          <pre id="output-1" class="textbox">Output of the request goes here</pre>
+        </div> -->
+        <!-- STOP TODO -->
+      </section>
+    </main>
+    <aside class="righter" aria-label="RightSidebar">
+      <div class="figure-container">
+        <img src="images/Joker.jpg" alt="Villain dressed like a clown, Joker, holding hands in front of face" class="image">
+        <img src="images/GodFather.jpg" alt="Man whispering to mafia boss known as GodFather" class="image">
+        <img src="images/Pirate.jpg" alt="Jack Sparrow the pirate getting chased on beach by skeletons" class="image">
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <h2>Keep Exploring Below!</h2>
+    <ul>
+      <li><button type="button" onclick="window.location.href='index.html'">Home</button></li>
+      <li><button type="button" onclick="window.location.href='bookmark.html'">Bookmark Films for Later</button></li>
+      <li><button type="button" onclick="window.location.href='links.html'">External Film Info</button></li>
+      <li><button type="button" onclick="window.location.href='popular.html'">Top Films</button></li>
+      <li><button type="button" onclick="window.location.href='reviews.html'">Film Reviews</button></li>
+    </ul>
+  </footer>
+  <script src="scripts/links.js"></script>
+</body>

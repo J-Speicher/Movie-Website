@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cool Film Reviews</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Best Movie Cite Ever</h1>
+  </header>
+
+  <div class="middler">
+    <aside class="lefter" aria-label="LeftSidebar">
+      <div class="figure-container">
+        <img src="images/ETMoon.jpg" alt="Shadow of boy riding flying bicycle in front of full moon" class="image">
+        <img src="images/Shining.jpg" alt="Crazy man with an axe, Jack Torrance, sticking his head through a door opening" class="image">
+        <img src="images/PlaneChase.jpg" alt="Man in suit running towards camera with a plane chasing him near ground level" class="image">
+      </div>
+    </aside>
+    <main>
+      <section>
+        <p>Funny Reviews!</p>
+        <ul>
+          <li>
+            <p><strong>Home Alone Two (1992)</strong>: They are criminals but no one deserves to be hit in the head with a brick</p>
+          </li>
+          <li>
+            <p><strong>The Wolf of Wallstreet (2013)</strong>: There were no wolves in the movie</p>
+          </li>
+          <li>
+            <p><strong>Annaconda (1997)</strong>: Very disappointed with the lack of Nicki Minaj in this film.</p>
+          </li>
+          <li>
+            <p><strong>Mad Max: Fury Road (2015)</strong>: Was expecting Max to get mad, didn't happen.</p>
+          </li>
+          <li>
+            <p><strong>Bug's Life (1998)</strong>: I never knew what struggles bugs went through… changed my life.</p>
+          </li>
+        </ul>
+      </section>
+      <p>Contribute your own reviews below:</p>
+      <section id="form-area">
+        <form id="review-form" action="#" method="get">
+          <div class="form-group" id="div1">
+            <label id="label1">Title: </label>
+            <input type="text" name="title" id="title" placeholder="Enter title">
+          </div>
+          <div class="form-group" id="div2">
+            <label id="label2">Review: </label>
+            <textarea name="review" id="review" cols="30" rows="5" placeholder="Enter review"></textarea>
+          </div>
+          <div class="form-buttons">
+            <button type="submit" id="submit-review">Submit</button>
+            <button type="reset" id="reset-reviews">Reset</button>
+          </div>
+        </form>
+      </section>
+      <section id="review-area">
+        <div class="reviews">
+          <p>Your Reviews:</p>
+        </div>
+        <ul id="reviews"></ul>
+      </section>
+
+    </main>
+    <aside class="righter" aria-label="RightSidebar">
+      <div class="figure-container">
+        <img src="images/Joker.jpg" alt="Villain dressed like a clown, Joker, holding hands in front of face" class="image">
+        <img src="images/GodFather.jpg" alt="Man whispering to mafia boss known as GodFather" class="image">
+        <img src="images/Pirate.jpg" alt="Jack Sparrow the pirate getting chased on beach by skeletons" class="image">
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <h2>Keep Exploring Below!</h2>
+
+    <ul>
+      <li><button type="button" onclick="window.location.href='index.html'">Home</button></li>
+      <li><button type="button" onclick="window.location.href='bookmark.html'">Bookmark Films for Later</button></li>
+      <li><button type="button" onclick="window.location.href='links.html'">External Film Info</button></li>
+      <li><button type="button" onclick="window.location.href='popular.html'">Top Films</button></li>
+      <li><button type="button" onclick="window.location.href='reviews.html'">Film Reviews</button></li>
+    </ul>
+  </footer>
+
+  <script src="scripts/reviews.js"></script>
+</body>
