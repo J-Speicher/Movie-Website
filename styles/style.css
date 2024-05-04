@@ -34,6 +34,14 @@ main {
   text-align: center;
 }
 
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10 auto;
+  font-size: 22px;
+}
+
 main,
 aside {
   padding: 5px;
@@ -86,36 +94,35 @@ ul {
   list-style-type: none;
   /* Remove default list styles */
   padding: 0;
+  color: rgb(20, 90, 0);
+  /* Change the color of the text */
+  margin-bottom: 5px;
+  /* Add margin bottom to decrease distance between elements */
 }
 
 #reviews {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 10 auto;
-}
+  /* margin: 10 auto; */
 
-#reviews li{
-  list-style-type: none;
-  padding: 0;
-  white-space: normal;
-  word-wrap: break-word;
-  max-width: 50ch; /* Adjust this value to set the character limit per line */
+
+  margin-left: 10%;
+  text-align: left;
 }
 
 #bookmarks {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 10 auto;
+  margin-left: 10%;
+  text-align: left;
 }
 
-#bookmarks li{
+#bookmarks li {
   list-style-type: none;
   padding: 0;
   white-space: normal;
   word-wrap: break-word;
-  max-width: 50ch; /* Adjust this value to set the character limit per line */
+  max-width: 50ch;
 }
 
 li {
@@ -149,7 +156,28 @@ li {
   }
 }
 
-.form-group {
-  text-align: center;
-  /* margin-left: 10%; */
+#review-form {
+  margin-left: 10%;
+  text-align: left;
+}
+
+#bookmark-form {
+  margin-left: 10%;
+  text-align: left;
+}
+
+#form-area {
+  text-align: left;
+}
+
+#btitle {
+  margin-left: 2rem;
+}
+
+#cast {
+  margin-left: 1.9rem;
+}
+
+#reason {
+  margin-left: .5rem;
 }

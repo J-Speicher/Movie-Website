@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Cool Film Reviews</title>
@@ -7,7 +9,7 @@
 
 <body>
   <header>
-    <h1>Best Movie Cite Ever</h1>
+    <h1>Movie Reviews</h1>
   </header>
 
   <div class="middler">
@@ -42,12 +44,12 @@
       <p>Contribute your own reviews below:</p>
       <section id="form-area">
         <form id="review-form" action="#" method="get">
-          <div class="form-group" id="div1">
-            <label id="label1">Title: </label>
+            <div class="form-group" id="div1">
+            <label id="label1" for="title">Title:</label><p>  </p>
             <input type="text" name="title" id="title" placeholder="Enter title">
           </div>
           <div class="form-group" id="div2">
-            <label id="label2">Review: </label>
+            <label id="label2" for="review">Review: </label><p> </p>
             <textarea name="review" id="review" cols="30" rows="5" placeholder="Enter review"></textarea>
           </div>
           <div class="form-buttons">
@@ -62,7 +64,6 @@
         </div>
         <ul id="reviews"></ul>
       </section>
-
     </main>
     <aside class="righter" aria-label="RightSidebar">
       <div class="figure-container">
@@ -87,3 +88,4 @@
 
   <script src="scripts/reviews.js"></script>
 </body>
+</html>
